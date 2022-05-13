@@ -1,0 +1,106 @@
+           .mainnav1 li{
+                padding: 0px;
+                margin: 0px;
+                display: flex;
+                position: relative;
+                text-decoration: none;
+                float:left;
+                text-align: center;
+                font-family: "DressedlessPro";
+                
+            }
+            .mainnav1 a{
+                color: white;
+                text-decoration: none;
+            }
+            .Ongoings{
+                background-color: rgba(207, 40, 40);
+                padding: 11px;
+                text-decoration: none;
+                
+            }
+            .Mainmenu{
+                border-radius: 5px 0px 0px 5px;
+                background-color: rgb(224, 44, 44);
+                padding: 11px;
+                text-decoration: none;
+                
+            }
+            .Сharacters{
+                background-color: rgb(179, 37, 37);
+                padding: 11px;
+                text-decoration: none;
+                
+            }
+            .Titles{
+                background-color: rgb(158, 26, 26);
+                padding: 11px;
+                text-decoration: none;
+                
+            }
+            .Lists{
+                background-color: rgb(134, 26, 26);
+                padding: 11px;
+                text-decoration: none;
+                border-radius: 0px 5px 5px 0px;
+                
+            }
+            a:hover { background-color: rgb(247, 138, 66);}
+            @font-face {
+                font-family:"DressedlessPro" ;
+                src: url("C:/Users/DubleRay/Desktop/Программирование/Anicode1/Fonts/BarcadeBrawlRegular.ttf");
+            }
+
+            .rightSidebar{
+                float: right;
+                width: 20%;
+                height: 100%;
+                color: aqua;
+                background-color: aquamarine;
+                        }
+            .Наполнение{
+                display: flex;
+                margin: auto;
+                padding: 0
+            }
+            .basement{
+                text-align: center;
+                clear: both;
+                
+            }
+            .хэд {    
+                padding: 0;
+                margin: auto;
+            }
+            .test{
+                display: flex;
+            }
+            
+            .year-list a{
+                color: white;
+                text-decoration: none;
+                padding:10px;
+            
+            }
+            .year-list li{
+                display: inline-block;
+            }
+            details > summary {
+                cursor: pointer;
+                background-color: rgb(158, 26, 26);
+                padding: 11px;
+                color: white;
+                text-decoration: none;
+                
+            }
+         summary:hover{ background-color: rgb(247, 138, 66);}
+            details >  ul{
+                padding: 11px;
+                background-color:rgb(228, 114, 114);
+                color: white;
+                text-decoration: none;
+                position: fixed;
+            }
+            details[open] > summary {
+                background-color:rgb(228, 114, 114);
+            }
